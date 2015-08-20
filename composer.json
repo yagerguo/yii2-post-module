@@ -1,0 +1,21 @@
+{
+    "name": "yagerguo/yii2-post-module",
+    "description": "A post module for yii2",
+    "type": "yii2-module",
+    "homepage": "https://github.com/yagerguo/yii2-post-module",
+    "authors": [
+    	{
+    		"name": "Yager Guo",
+            "email": "yagerguo@163.com",
+            "homepage": "http://www.icaiyun.com"
+    	}
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yagerguo\\yii2post\\": "src"
+        }
+}
