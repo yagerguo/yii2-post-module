@@ -18,8 +18,8 @@ class m150821_032918_yii2_post_module_db extends Migration {
             'title' => Schema::TYPE_STRING . ' NOT NULL',
             'status' => Schema::TYPE_INTEGER . '(1) unsigned NOT NULL DEFAULT "0"',
             'content' => Schema::TYPE_TEXT . ' NOT NULL',
-            'createdAt' => Schema::TYPE_INTEGER . ' NOT NULL',
-            'updatedAt' => Schema::TYPE_INTEGER . ' NOT NULL',
+            'createdAt' => Schema::TYPE_INTEGER,
+            'updatedAt' => Schema::TYPE_INTEGER,
         ], $tableOptions);
         
         $this->createTable('{{%post_category}}', [
