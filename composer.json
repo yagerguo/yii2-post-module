@@ -5,7 +5,7 @@
     "homepage": "https://github.com/yagerguo/yii2-post-module",
     "authors": [
     	{
-    		"name": "Yager Guo",
+            "name": "Yager Guo",
             "email": "yagerguo@163.com",
             "homepage": "http://www.icaiyun.com"
     	}
@@ -13,10 +13,5 @@
     "require": {
         "php": ">=5.3.0",
         "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "yagerguo\\yii2post\\": "src"
-        }
     }
 }
